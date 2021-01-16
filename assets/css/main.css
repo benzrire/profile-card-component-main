@@ -1,4 +1,16 @@
-.attribution { font-size: 11px; text-align: center; margin-top: 10px; }
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
